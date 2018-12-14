@@ -4,9 +4,9 @@ package javaapplication1;
 public class SimpleOrDifficult {
     public static void main(String[] args){
         
-       int schSim = 0;//Переменная-счетчик для простых чисел
-       int schDiff = 0;//Переменная счетчик для составных чисел
-       int schExc = 0;//Переменная счетчик для исключений 
+       int schSim = 0;
+       int schDiff = 0;
+       int schExc = 0;
        
             for(int i=0; i<100; i++){
                 if(i==0||i==1){
@@ -23,12 +23,12 @@ public class SimpleOrDifficult {
                 }
             }
             
-        int simple [] = new int[schSim];//Объявили и инициализировали массивы по
-        int difficult[] = new int [schDiff];//количеству чисел каждого типа 
+        int simple [] = new int[schSim];
+        int difficult[] = new int [schDiff]; 
         int exception[] = new int [schExc];
         
         schSim=0;
-        schDiff=0;//Обнулили счетчики
+        schDiff=0;
         schExc=0;
         
             for(int i=0; i<100; i++){
